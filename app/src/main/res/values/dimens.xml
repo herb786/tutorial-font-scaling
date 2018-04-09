@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="faq_title_font">32dp</dimen>
+    <dimen name="faq_font">16dp</dimen>
+    <dimen name="offer_title_font">40dp</dimen>
+    <dimen name="offer_font">32dp</dimen>
+    <dimen name="offer_call_font">28dp</dimen>
+</resources>

@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="#752"
     tools:context="com.hacaller.garageapp.MainActivity">
 
     <TextView
@@ -12,6 +13,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="36dp"
+        android:textStyle="bold"
         android:layout_margin="16dp"
         android:text="Garage App"/>
 
@@ -21,6 +23,9 @@
         android:textAllCaps="false"
         android:textSize="32dp"
         android:layout_margin="16dp"
+        android:padding="5dp"
+        android:background="#7aa"
+        android:textColor="#342"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
@@ -30,6 +35,9 @@
         android:textAllCaps="false"
         android:textSize="32dp"
         android:layout_margin="16dp"
+        android:padding="5dp"
+        android:background="#7aa"
+        android:textColor="#342"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 

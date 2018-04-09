@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#565"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".FAQActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/faq_title_font"
+        android:textColor="#6ff"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="F.A.Q."/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/faq_font"
+        android:textStyle="bold"
+        android:textColor="#ffc"
+        android:gravity="center"
+        android:text="Do I really need winter tires?"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/faq_font"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:text="Yes. Only winter tires are designed to excel in the colder temperatures, slush, snow and ice. "/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/faq_font"
+        android:textStyle="bold"
+        android:textColor="#ffc"
+        android:gravity="center"
+        android:text="When should I have my tires rotated?"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/faq_font"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:text="Tire rotations are typically done every 6,000 km's."/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/faq_font"
+        android:textStyle="bold"
+        android:textColor="#ffc"
+        android:gravity="center"
+        android:text="When should I replace my car's fuel filter?"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/faq_font"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:text="Replace your car's fuel filter approximately every 48,000 km's or as recommended in your vehicle's owner's manual."/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/faq_font"
+        android:textStyle="bold"
+        android:textColor="#ffc"
+        android:gravity="center"
+        android:text="Is there any warranty offered?"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/faq_font"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:text="Yes. All our services come with a 12 month parts and labour guarantee."/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/faq_font"
+        android:textStyle="bold"
+        android:textColor="#ffc"
+        android:gravity="center"
+        android:text="When are your opening hours?"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/faq_font"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:text="We are open 7 days a week. Monday to Friday we operate from 8:30am to 9pm and on Saturday and Sunday we operate from 10am to 6pm."/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="2"/>
+
+</LinearLayout>
