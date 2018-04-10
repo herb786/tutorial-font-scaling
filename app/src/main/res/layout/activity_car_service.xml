@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#179"
+    android:background="#584"
     tools:context=".CarServiceActivity">
 
     <Space
@@ -35,13 +35,12 @@
         android:gravity="center"
         android:text="Oil Filter\nAir Filter\nSpark Plugs\nLabour"/>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="108dp"
-        android:textColor="#7d5"
-        android:gravity="center"
-        android:text="\uD83D\uDE97" />
+   <ImageView
+       android:src="@drawable/car_repair"
+       android:layout_width="200dp"
+       android:layout_height="wrap_content"
+       android:adjustViewBounds="true"
+       android:layout_gravity="center"/>
 
 
     <TextView
